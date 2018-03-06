@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+.red{
+	background-color: red;
+	font-style: italic;
+}
+.green{
+	background-color: green;
+	font-style: italic;
+}
+.yellow{
+	background-color: yellow;
+	font-style: italic;
+}
