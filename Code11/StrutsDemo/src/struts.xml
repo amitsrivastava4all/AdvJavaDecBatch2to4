@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+<package name="default" namespace="/" extends="struts-default">
+<action name="shop" class="com.brainmentors.actions.ShopAction">
+<result name="success">/shopresult.jsp</result>
+<result name="error">/shopresult.jsp</result>
+</action>
+<action name="login" class="com.brainmentors.actions.WelcomeAction">
+<result name="success">/welcome.jsp</result>
+<result name="error">/welcome.jsp</result>
+</action>
+<action name="welcome" class="com.brainmentors.actions.WelcomeAction" method="sayWelcome">
+<result name="success">/index.jsp</result>
+</action>
+</package>
+</struts>
